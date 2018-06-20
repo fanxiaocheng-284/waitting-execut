@@ -6,10 +6,15 @@ class WaittingExecut {
   }
 
   init() {
-    this.waitting = setTimeout(() => {
+    if (this.waitTime > 0) {
+      this.waitting = setTimeout(() => {
+        this.callBack();
+        this.doneFlag = true;
+      }, this.waitTime);
+    } else {
       this.callBack();
       this.doneFlag = true;
-    }, this.waitTime);
+    }
   }
 
   execut() {
@@ -25,6 +30,10 @@ class WaittingExecut {
       clearTimeout(this.waitting);
       this.doneFlag = true;
     }
+  }
+
+  isFinished() {
+    return this.doneFlag;
   }
 
   reset() {
