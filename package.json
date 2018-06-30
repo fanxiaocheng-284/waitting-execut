@@ -1,6 +1,6 @@
 {
   "name": "waitting-execut",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "### Install",
   "main": "index.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fanxiaocheng-284/waitting-execut.git"
+    "url": "git+https://github.com/jacksirens/waitting-execut.git"
   },
   "author": "jacksirens",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fanxiaocheng-284/waitting-execut/issues"
+    "url": "https://github.com/jacksirens/waitting-execut/issues"
   },
-  "homepage": "https://github.com/fanxiaocheng-284/waitting-execut#readme"
+  "homepage": "https://github.com/jacksirens/waitting-execut#readme"
 }
